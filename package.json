@@ -1,6 +1,6 @@
 {
   "name": "eloi",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A lightweight JavaScript library for shifting the global Date object forward or backward in time during runtime",
   "main": "./lib",
   "keywords": [
