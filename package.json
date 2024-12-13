@@ -1,8 +1,27 @@
 {
-  "name": "npm-boilerplate",
+  "name": "eloi",
   "version": "0.0.1",
-  "description": "boilerplate for creating npm packages",
+  "description": "A lightweight JavaScript library for shifting the global Date object forward or backward in time during runtime",
   "main": "./lib",
+  "keywords": [
+    "time manipulation",
+    "time travel",
+    "mock date",
+    "date testing",
+    "future testing",
+    "past testing",
+    "global date override",
+    "runtime date shift",
+    "date mocking",
+    "time testing tool",
+    "temporal testing",
+    "time-shifting library",
+    "test automation",
+    "date control",
+    "date mock",
+    "date",
+    "tieme"
+  ],
   "scripts": {
     "prepare": "babel src --out-dir ./lib --copy-files && husky install",
     "coveralls": "cat ./reports/coverage/lcov.info | coveralls",
@@ -20,17 +39,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pustovitDmytro/npm-boilerplate.git"
+    "url": "https://github.com/pustovitDmytro/eloi.git"
   },
   "author": "Dmytro Pustovit",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pustovitDmytro/npm-boilerplate/issues"
+    "url": "https://github.com/pustovitDmytro/eloi/issues"
   },
   "engines": {
     "node": ">=10"
   },
-  "homepage": "https://github.com/pustovitDmytro/npm-boilerplate#readme",
+  "homepage": "https://github.com/pustovitDmytro/eloi#readme",
   "devDependencies": {
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.20.5",
