@@ -1,3 +1,5 @@
+![Logo](.docs/logo.jpg "Eloi time machine")
+
 # eloi
 A lightweight JavaScript library for shifting the global `Date` object forward or backward in time during runtime. Perfect for testing systems against future or past dates without manually manipulating your system clock.
 
@@ -143,7 +145,7 @@ Make the changes to the code and tests. Then commit to your branch. Be sure to f
 [scrutinizer-badge]: https://scrutinizer-ci.com/g/pustovitDmytro/eloi/badges/quality-score.png?b=master
 [scrutinizer-url]: https://scrutinizer-ci.com/g/pustovitDmytro/eloi/?branch=master
 
-[codacy-badge]: https://app.codacy.com/project/badge/Grade/8667aa23afaa4725854f098c4b5e8890
+[codacy-badge]: https://app.codacy.com/project/badge/Grade/8f8ed4352d9048259d97cc0d1a838f51
 [codacy-url]: https://www.codacy.com/gh/pustovitDmytro/eloi/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pustovitDmytro/eloi&amp;utm_campaign=Badge_Grade
 
 [sonarcloud-badge]: https://sonarcloud.io/api/project_badges/measure?project=pustovitDmytro_eloi&metric=alert_status
