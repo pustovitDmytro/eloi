@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/pustovitDmytro/eloi/compare/v1.0.0...v1.0.1) (2024-12-13)
+
+
+### Docs
+
+* adds logo ([a7e066f](https://github.com/pustovitDmytro/eloi/commit/a7e066f0e9eb13bb658a56ae8e7cd4cf12ba705c))
+
 # 1.0.0 (2024-12-13)
 
 
