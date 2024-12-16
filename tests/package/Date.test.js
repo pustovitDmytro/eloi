@@ -1,3 +1,4 @@
+// eslint-disable-next-line unicorn/import-style
 import util from 'util';
 import { assert } from 'chai';
 import entry from '../entry';
