@@ -11,7 +11,9 @@ test('Default configuration', function () {
     assert.exists(entry);
 
     assert.instanceOf(entry, Eloi);
-    assert.instanceOf(new (entry.shift(50))(), Date);
+    const EloiDate = entry.shift(50);
+
+    assert.instanceOf(new EloiDate(), Date);
 });
 
 test('use constructor instance', function () {

@@ -25,7 +25,7 @@ export class Eloi {
             global.Date = this._EloiDate;
         }
 
-        return this.EloiDate;
+        return this._EloiDate;
     }
 
     reset() {

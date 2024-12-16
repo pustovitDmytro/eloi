@@ -65,7 +65,21 @@ test('Date.prototype.toString()', function () {
     const dateString = date.toString();
 
     assert.isString(dateString);
-    assert.match(dateString, /^(?:[A-Z][a-z]{2} ){2}\d{2} \d{4} (?:\d{2}:){2}\d{2} GMT[+-]\d{4} \([ A-Za-z]+\)$/);
+    const parts = dateString.split(' ');
+
+    assert.include([ 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun' ], parts[0], 'Day of the week is valid');
+
+    assert.include([ 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec' ], parts[1], 'Month is valid');
+
+    assert.match(parts[2], /^\d{2}$/, 'Day of the month is valid');
+
+    assert.match(parts[3], /^\d{4}$/, 'Year is valid');
+
+    assert.match(parts[4], /^\d{2}:\d{2}:\d{2}$/, 'Time is valid');
+
+    assert.match(parts[5], /^GMT[+-]\d{4}$/, 'GMT offset is valid');
+
+    assert.match(parts.slice(6).join(' '), /^\(.*\)$/, 'Time zone name is valid');
 });
 
 test('EloiDate logs like original Date', function () {
