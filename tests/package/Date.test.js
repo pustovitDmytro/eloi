@@ -1,3 +1,4 @@
+import util from 'util';
 import { assert } from 'chai';
 import entry from '../entry';
 
@@ -64,6 +65,13 @@ test('Date.prototype.toString()', function () {
 
     assert.isString(dateString);
     assert.match(dateString, /^(?:[A-Z][a-z]{2} ){2}\d{2} \d{4} (?:\d{2}:){2}\d{2} GMT[+-]\d{4} \([ A-Za-z]+\)$/);
+});
+
+test('EloiDate logs like original Date', function () {
+    const date = new Date();
+    const inspected = util.inspect(date);
+
+    assert.match(inspected, /\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z/);
 });
 
 test('Date.prototype.getUTCFullYear()', function () {

@@ -20,7 +20,7 @@
     "date control",
     "date mock",
     "date",
-    "tieme"
+    "time"
   ],
   "scripts": {
     "prepare": "babel src --out-dir ./lib --copy-files && husky install",
@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pustovitDmytro/eloi.git"
+    "url": "git@github.com:pustovitDmytro/eloi.git"
   },
   "author": "Dmytro Pustovit",
   "license": "MIT",
@@ -71,7 +71,7 @@
     "conventional-changelog-eslint": "^3.0.9",
     "coveralls": "^3.1.1",
     "danger": "^11.2.0",
-    "eslint": "^8.30.0",
+    "eslint": "8.30.0",
     "eslint-config-incredible": "^2.4.2",
     "eslint-plugin-censor": "^1.5.2",
     "eslint-plugin-import": "^2.26.0",
@@ -84,7 +84,7 @@
     "eslint-plugin-scanjs-rules": "^0.2.1",
     "eslint-plugin-security": "^1.5.0",
     "eslint-plugin-sonarjs": "^0.17.0",
-    "eslint-plugin-unicorn": "45.0.2",
+    "eslint-plugin-unicorn": "40.1.0",
     "fs-extra": "^11.1.0",
     "husky": "^8.0.2",
     "jscpd": "^3.5.3",

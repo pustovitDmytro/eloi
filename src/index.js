@@ -6,7 +6,8 @@ export class Eloi {
 
     shift(offsetMs) {
         const OriginalDate = this._OriginalDate;
-        const EloiDate = class extends OriginalDate {
+
+        this._EloiDate = class extends OriginalDate {
             constructor(...args) {
                 if (args.length === 0) {
                     super(OriginalDate.now() + offsetMs);
@@ -21,10 +22,10 @@ export class Eloi {
         };
 
         if (this._setGlobal) {
-            global.Date = EloiDate;
+            global.Date = this._EloiDate;
         }
 
-        return EloiDate;
+        return this.EloiDate;
     }
 
     reset() {
