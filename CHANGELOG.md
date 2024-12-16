@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/pustovitDmytro/eloi/compare/v1.0.1...v1.0.2) (2024-12-13)
+
+
+### Docs
+
+* adds logo to npmingnore ([21c519e](https://github.com/pustovitDmytro/eloi/commit/21c519ef2aa7c6c6bcf8eccbe13a1a61a147c286))
+
 ## [1.0.1](https://github.com/pustovitDmytro/eloi/compare/v1.0.0...v1.0.1) (2024-12-13)
 
 
