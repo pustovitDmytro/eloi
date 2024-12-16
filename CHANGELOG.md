@@ -1,3 +1,15 @@
+## [1.0.3](https://github.com/pustovitDmytro/eloi/compare/v1.0.2...v1.0.3) (2024-12-16)
+
+
+### Chore
+
+* fixes lint ([e81cb80](https://github.com/pustovitDmytro/eloi/commit/e81cb8084b77b8343d251196e58d5800d409f282))
+* fixes tests ([ba91d7a](https://github.com/pustovitDmytro/eloi/commit/ba91d7a4041e6024672bc1ab1a805532c8e0f052))
+
+### Fix
+
+* fixes correct print in logs ([516d38d](https://github.com/pustovitDmytro/eloi/commit/516d38d1558eef06e0b454d97b94f0c5ada395f6))
+
 ## [1.0.2](https://github.com/pustovitDmytro/eloi/compare/v1.0.1...v1.0.2) (2024-12-13)
 
 
