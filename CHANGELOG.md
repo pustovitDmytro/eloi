@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/pustovitDmytro/eloi/compare/v1.0.3...v1.0.4) (2024-12-18)
+
+
+### Docs
+
+* changle logo to absolute url ([ebcdc24](https://github.com/pustovitDmytro/eloi/commit/ebcdc244f6d8b9de7830758b6c5731c3a1736bac))
+
 ## [1.0.3](https://github.com/pustovitDmytro/eloi/compare/v1.0.2...v1.0.3) (2024-12-16)
 
 
