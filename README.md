@@ -1,4 +1,4 @@
-![Logo](.docs/logo_256.png "Eloi time machine")
+![Logo](https://github.com/pustovitDmytro/eloi/blob/master/.docs/logo_256.png "Eloi time machine")
 
 # eloi
 A lightweight JavaScript library for shifting the global `Date` object forward or backward in time during runtime. Perfect for testing systems against future or past dates without manually manipulating your system clock.
